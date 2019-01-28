@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Joshtest</string>
+
+    <string name="button_title1">Update Text</string>
+    <string name="button_title2">INVITE CATS</string>
+    <string name="button_title3">LIST O\' CATS</string>
+
+    <string name="text_old">OLD TEXT</string>
+    <string name="text_new">NEW TEXT</string>
+    <string name="title_activity_second">SecondActivity</string>
+</resources>
