@@ -67,10 +67,9 @@ class CatListActivity : AppCompatActivity() {
 
             override fun onClick(v: View) {
                 val newPlaceKitten = generatePlaceKitten()
-                cats[adapterPosition] = newPlaceKitten
 
-                v.postInvalidate()
-                
+                cats[adapterPosition] = newPlaceKitten
+                adapter.notifyItemChanged(adapterPosition)
 
                 Tools.toast(v.context, newPlaceKitten.url)
 
